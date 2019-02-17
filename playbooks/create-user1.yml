@@ -4,6 +4,8 @@
 ---
 - hosts: 
     - all
+  vars:
+     user_name: "fran"
   become: yes
   roles:
   - create-user
