@@ -1,0 +1,9 @@
+#
+#About: This will create-user
+#
+---
+- hosts: 
+    - all
+  become: yes
+  roles:
+  - create-user
